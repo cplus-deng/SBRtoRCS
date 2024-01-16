@@ -1,0 +1,138 @@
+﻿  MonoRCS.cpp
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2534,22): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2489,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::PhysicalOpticsIntegral(const RayPool<T> &,const Observation<T> &,T &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(100,26): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpu" 中对 "SbrSolver<Float>::PhysicalOpticsIntegral" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MonoRCS.cpp(53,29): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpu" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MonoRCS.cpp(52,22): message : 查看对正在编译的 类 模板 实例化“SbrSolver<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2542,70): warning C4244: “参数”: 从“double”转换到“const std::complex<float>::_Ty”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2553,18): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2332,5): error C3581: 'void (const Concurrency::extent<1> &,_Value_type *) restrict(cpu, amp)': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2384,33): message : 查看对正在编译的 类 模板 实例化“Concurrency::array_view<RayTube<T>,1>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2376,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::ShootAndBounceRaysGpu(const ReducedBvhArray<Float> &,RayPool<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(99,25): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpu" 中对 "SbrSolver<Float>::ShootAndBounceRaysGpu" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MonoRCS.cpp(53,29): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpu" 的第一个引用
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2474,5): error C3581: 'void (int,_Value_type *) restrict(cpu, amp)': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2507,5): error C3581: 'void (int,int,_Value_type *) restrict(cpu, amp)': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2530,5): error C3581: 'void (int,int,int,_Value_type *) restrict(cpu, amp)': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2572,80): error C3581: 'RayTube<T> &(int) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              T=Float
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2590,18): error C3581: '_Value_type &(const Concurrency::index<1> &) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2605,18): error C3581: '_Value_type &(const Concurrency::index<1> &) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2619,18): error C3581: '_Value_type &(const Concurrency::index<1> &) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2635,80): error C3581: 'RayTube<T> &(int) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              T=Float
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2652,18): error C3581: '_Value_type &(int,int) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2673,18): error C3581: '_Value_type &(int,int,int) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amp.h(2831,24): error C3581: '_Value_type *(void) restrict(cpu, amp) const': amp 限制代码中存在不支持的类型
+          with
+          [
+              _Value_type=RayTube<Float>
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2388,18): error C3581: 'RayTube<T> &': amp 限制代码中存在不支持的类型
+          with
+          [
+              T=Float
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1470,19): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\memory(1471,22): message : 不允许指针或引用指向类型、数组元素类型或数据成员类型(对 concurrency::array/texture 的引用除外)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2401,18): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2414,10): error C3930: “RayTube<T>::CollisionWithBoundBox”: 没有任何重载函数具有与环境上下文“SbrSolver<Float>::ShootAndBounceRaysGpu::<lambda_e2463f48b183c5a044e7041771dd7b6d>::operator ()”兼容的限制说明符
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2424,10): error C3930: “RayTube<T>::CollisionWithTriangleSbr”: 没有任何重载函数具有与环境上下文“SbrSolver<Float>::ShootAndBounceRaysGpu::<lambda_e2463f48b183c5a044e7041771dd7b6d>::operator ()”兼容的限制说明符
+          with
+          [
+              T=Float
+          ]

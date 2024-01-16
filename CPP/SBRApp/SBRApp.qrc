@@ -1,0 +1,28 @@
+<RCC>
+  <qresource prefix="SBRApp">
+    <file>icon/importCat.png</file>
+    <file>icon/App.png</file>
+    <file>icon/add.png</file>
+    <file>icon/Coat.png</file>
+    <file>icon/Diele.png</file>
+    <file>icon/PEC.png</file>
+    <file>icon/delete.png</file>
+    <file>icon/edit.png</file>
+    <file>icon/folder.png</file>
+    <file>icon/type.png</file>
+    <file>icon/曲线.png</file>
+    <file>icon/减-方框.png</file>
+    <file>icon/添加.png</file>
+    <file>icon/parameter确认.png</file>
+    <file>icon/选择文件.png</file>
+    <file>icon/三维坐标.png</file>
+    <file>icon/取消.png</file>
+    <file>icon/确认.png</file>
+    <file>icon/运行中.png</file>
+    <file>icon/暂停.png</file>
+    <file>icon/重置.png</file>
+    <file>icon/方向.png</file>
+    <file>icon/光合辐射.png</file>
+    <file>icon/时域波形.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>E:\Projects\RaytrAMP-master\CPP\Test\sphere1r11256.rab E:\Projects\RaytrAMP-master\CPP\Test\ObsPhi256.obs E:\Projects\RaytrAMP-master\CPP\Test\ObsPhi256.rcs</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

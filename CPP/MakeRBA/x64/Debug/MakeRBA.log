@@ -1,0 +1,63 @@
+﻿  MakeRBA.cpp
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3674,118): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3677,93): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3679,170): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3682,177): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3686,92): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3695,93): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3698,89): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\amprt.h(3703,139): warning C5040: 动态异常规范仅在 C++14 及更早版本中有效；视为 noexcept(false)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(288,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(286,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::PopulateReducedBvhArray(ReducedBvhArray<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(59,39): message : 请参阅 "main" 中对 "BvhGenerator<Float>::PopulateReducedBvhArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(53,25): message : 查看对正在编译的 类 模板 实例化“BvhGenerator<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(249,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(247,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::RemoveEmptyNodes(void)”时
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(56,32): message : 请参阅 "main" 中对 "BvhGenerator<Float>::RemoveEmptyNodes" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(193,15): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(171,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::SqueezeBvhArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(55,31): message : 请参阅 "main" 中对 "BvhGenerator<Float>::SqueezeBvhArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(141,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(132,7): message : 在编译 类 模板 成员函数“void MortonManager<Float>::GenerateMortonArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(51,36): message : 请参阅 "main" 中对 "MortonManager<Float>::GenerateMortonArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(50,26): message : 查看对正在编译的 类 模板 实例化“MortonManager<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\TriangleMesh.hpp(154,31): warning C4267: “=”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\TriangleMesh.hpp(122,7): message : 在编译 类 模板 成员函数“void TriangleMesh<Float>::ImportFromUnvTrigMeshFile(const UnvTrigMeshFile<Float> &)”时
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(48,37): message : 请参阅 "main" 中对 "TriangleMesh<Float>::ImportFromUnvTrigMeshFile" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(47,25): message : 查看对正在编译的 类 模板 实例化“TriangleMesh<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(55,11): warning C4244: “*=”: 从“const S”转换到“T”，可能丢失数据
+          with
+          [
+              S=float
+          ]
+          and
+          [
+              T=U32
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(53,15): message : 在编译 类 模板 成员函数“void LUV::OP_MUL<T,S>::operator ()(T &,const S &)”时
+          with
+          [
+              T=U32,
+              S=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Unroll.hpp(45,12): message : 请参阅 "LUV::UNROLL" 中对 "LUV::OP_MUL<T,S>::operator ()" 的第一个引用
+          with
+          [
+              T=U32,
+              S=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(76,35): message : 查看对正在编译的 类 模板 实例化“LUV::OP_MUL<T,S>”的引用
+          with
+          [
+              T=U32,
+              S=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(177,17): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,U32> &LUV::operator *=<3,U32,float>(LUV::LuVector<3,U32> &,const LUV::LuVector<3,float> &) restrict(cpu, amp)”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(146,42): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,U32> LUV::operator *<3,U32,float>(const LUV::LuVector<3,U32> &,const LUV::LuVector<3,float> &) restrict(cpu, amp)”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(132,7): message : 在编译 类 模板 成员函数“void MortonManager<Float>::GenerateMortonArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SOURCE\EntryPoints\MakeRBA.cpp(51,36): message : 请参阅 "main" 中对 "MortonManager<Float>::GenerateMortonArray" 的第一个引用
+  MakeRBA.vcxproj -> E:\Projects\RaytrAMP-master\CPP\x64\Debug\MakeRBA.exe

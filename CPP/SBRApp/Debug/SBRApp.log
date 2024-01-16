@@ -1,0 +1,13 @@
+﻿  Worker.cpp
+  SBRApp.cpp
+  main.cpp
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(1683,63): error C2228: “.get”的左边必须有类/结构/联合 (编译源文件 Worker.cpp)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(1683,63): message : 类型是“const LUV::LuVector<3,float> [5]” (编译源文件 Worker.cpp)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(1581,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::ShootAndBounceRaysAccDieGUI2Pol(const ReducedBvhArray<Float> &,RayPoolDie<T> &,const Observation<T> &,RcsArray<T> &,const Excitation<T> &,const bool &,const std::vector<Param<T>,std::allocator<Param<T>>> &,const std::vector<ParamCoat<T>,std::allocator<ParamCoat<T>>> &)”时
+          with
+          [
+              T=Float
+          ] (编译源文件 Worker.cpp)
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(68,34): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieGUI2Pol" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieGUI2Pol" 的第一个引用 (编译源文件 Worker.cpp)
+E:\Projects\RaytrAMP-master\CPP\SBRApp\Worker.cpp(153,42): message : 请参阅 "Worker::SBRtoRCS" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieGUI2Pol" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRApp\Worker.cpp(146,21): message : 查看对正在编译的 类 模板 实例化“SbrSolver<Float>”的引用

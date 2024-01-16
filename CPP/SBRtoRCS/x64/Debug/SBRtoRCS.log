@@ -1,0 +1,576 @@
+﻿  SBRtoRCS.cpp
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(28,23): warning C4305: “初始化”: 从“double”到“Float”截断
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(60,14): warning C4305: “初始化”: 从“double”到“Float”截断
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(117,51): warning C4244: “参数”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(107,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess(TriangleMesh<Float> &,const ReducedBvhArray<T> &,const Observation<T> &,RcsArray<T> &,Excitation<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(87,24): message : 查看对正在编译的 类 模板 实例化“SbrSolver<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(117,37): warning C4305: “参数”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(51,8): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(47,7): message : 在编译 类 模板 成员函数“void Excitation<T>::Initialize(const ReducedBvhArray<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(82,26): message : 请参阅 "main" 中对 "Excitation<T>::Initialize" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(81,25): message : 查看对正在编译的 类 模板 实例化“Excitation<T>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(52,8): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(54,9): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(55,8): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(76,10): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(78,19): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(288,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(286,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::PopulateReducedBvhArray(ReducedBvhArray<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(49,41): message : 请参阅 "main" 中对 "BvhGenerator<Float>::PopulateReducedBvhArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(43,27): message : 查看对正在编译的 类 模板 实例化“BvhGenerator<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(249,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(247,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::RemoveEmptyNodes(void)”时
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(46,34): message : 请参阅 "main" 中对 "BvhGenerator<Float>::RemoveEmptyNodes" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(193,15): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BvhGenerator.hpp(171,7): message : 在编译 类 模板 成员函数“void BvhGenerator<Float>::SqueezeBvhArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(45,33): message : 请参阅 "main" 中对 "BvhGenerator<Float>::SqueezeBvhArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(141,17): warning C4267: “初始化”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(132,7): message : 在编译 类 模板 成员函数“void MortonManager<Float>::GenerateMortonArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(41,38): message : 请参阅 "main" 中对 "MortonManager<Float>::GenerateMortonArray" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(40,28): message : 查看对正在编译的 类 模板 实例化“MortonManager<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\TriangleMesh.hpp(92,31): warning C4267: “=”: 从“size_t”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\TriangleMesh.hpp(75,7): message : 在编译 类 模板 成员函数“void TriangleMesh<Float>::ImportFromStlTrigMeshFile(const StlTrigMeshFile<Float> &)”时
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(38,39): message : 请参阅 "main" 中对 "TriangleMesh<Float>::ImportFromStlTrigMeshFile" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(37,27): message : 查看对正在编译的 类 模板 实例化“TriangleMesh<Float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3272,9): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3264,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::RcsTimeToFreqDomainDieMemoryLess(TriangleMesh<Float> &,const Observation<T> &,RayPoolDie<T> &,RcsArray<T> &,Excitation<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(127,35): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::RcsTimeToFreqDomainDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3298,11): warning C4018: “>=”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3315,27): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3330,29): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3383,69): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3385,28): warning C4244: “参数”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3391,16): warning C4244: “初始化”: 从“float”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3392,16): warning C4244: “初始化”: 从“float”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2079,9): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2071,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess(const ReducedBvhArray<T> &,RayPoolDie<T> &,const Observation<T> &,RcsArray<T> &,const Excitation<T> &,const bool &,const Param<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3790,22): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3790,1): message : 查看对正在编译的函数 模板 实例化“T SbrSolver<T>::pi”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2086,29): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2097,35): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2099,36): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2120,19): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2188,17): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2320,18): warning C4244: “初始化”: 从“float”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(729,19): warning C4305: “初始化”: 从“double”到“Float”截断
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(702,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::RayValidGPUNew(const ReducedBvhArray<T> &,RayPoolDie<T> &,T,T)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(117,17): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::RayValidGPUNew" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BoundBox.hpp(43,37): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\BoundBox.hpp(41,11): message : 在编译 类 模板 成员函数“T BoundBox<T>::GetRadius(void) const”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\Excitation.h(59,19): message : 请参阅 "Excitation<T>::Initialize" 中对 "BoundBox<T>::GetRadius" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(82,26): message : 请参阅 "main" 中对 "Excitation<T>::Initialize" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\TriangleMesh.hpp(24,16): message : 查看对正在编译的 类 模板 实例化“BoundBox<T>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(1044,17): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(1042,14): message : 在编译 类 模板 成员函数“void RayTubeCorDie<T>::CollisionWithTriangleSbr(const Triangle<T> &,bool &,T &,LUV::LuVector<3,T> &) restrict(amp)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(752,42): message : 请参阅 "SbrSolver<Float>::RayValidGPUNew::<lambda_1>::operator ()" 中对 "RayTubeCorDie<T>::CollisionWithTriangleSbr" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2180,27): message : 查看对正在编译的 类 模板 实例化“RayTubeCorDie<T>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2071,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess(const ReducedBvhArray<T> &,RayPoolDie<T> &,const Observation<T> &,RcsArray<T> &,const Excitation<T> &,const bool &,const Param<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(1056,13): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(591,17): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(589,14): message : 在编译 类 模板 成员函数“void RayTubeDie<T>::CollisionWithTriangleSbr(const Triangle<T> &,bool &,T &,LUV::LuVector<3,T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2143,36): message : 请参阅 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 中对 "RayTubeDie<T>::CollisionWithTriangleSbr" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3318,10): message : 查看对正在编译的 类 模板 实例化“RayTubeDie<T>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3264,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::RcsTimeToFreqDomainDieMemoryLess(TriangleMesh<Float> &,const Observation<T> &,RayPoolDie<T> &,RcsArray<T> &,Excitation<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(127,35): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::RcsTimeToFreqDomainDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayTube.hpp(603,13): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(348,21): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(326,7): message : 在编译 类 模板 成员函数“void RayPoolDie<T>::ReGenerateRaysAcc(const BoundBox<T> &,const LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(677,28): message : 请参阅 "SbrSolver<Float>::PopulateRayPoolAccDie" 中对 "RayPoolDie<T>::ReGenerateRaysAcc" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(113,24): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::PopulateRayPoolAccDie" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(112,19): message : 查看对正在编译的 类 模板 实例化“RayPoolDie<T>”的引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(107,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess(TriangleMesh<Float> &,const ReducedBvhArray<T> &,const Observation<T> &,RcsArray<T> &,Excitation<T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(367,29): warning C4305: “=”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(381,32): warning C4305: “=”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(182,45): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(149,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::TraceInDieleAndEs(RayTubeDie<T> &,const LUV::LuVector<3,T> &,const Param<T> &,const Excitation<T> &,const ReducedBvhArray<T> &,RayPoolDie<T> &,const Observation<T> &,const T &,const T &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2296,25): message : 请参阅 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 中对 "SbrSolver<Float>::TraceInDieleAndEs" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(191,17): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(316,13): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(250,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::DielectricTr(const SbrSolver<Float>::InDiele &,const RayTubeDie<T> &,RayTubeDie<T> &,LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &,const Observation<T> &,const Param<T> &,const T &,const LUV::LuVector<3,T> &,const T &,const T &,const Excitation<T> &,T &,T &,T &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(171,15): message : 请参阅 "SbrSolver<Float>::TraceInDieleAndEs" 中对 "SbrSolver<Float>::DielectricTr" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2296,25): message : 请参阅 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 中对 "SbrSolver<Float>::TraceInDieleAndEs" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(356,12): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(363,61): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(364,46): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(366,60): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(367,44): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(388,10): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(389,10): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(390,10): warning C4244: “初始化”: 从“_Ty”转换到“T”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(475,12): warning C4244: “初始化”: 从“T”转换到“T”，可能丢失数据
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(626,12): warning C4244: “初始化”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(647,15): warning C4244: “初始化”: 从“float”转换到“U32”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(651,24): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(654,25): warning C4018: “<”: 有符号/无符号不匹配
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3778,22): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3778,1): message : 在编译 类 模板 静态数据成员“T SbrSolver<T>::c0”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3787,22): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3787,1): message : 在编译 类 模板 静态数据成员“T SbrSolver<T>::z0”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3793,23): warning C4305: “初始化”: 从“double”到“T”截断
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3793,1): message : 在编译 类 模板 静态数据成员“T SbrSolver<T>::eps”时
+          with
+          [
+              T=Float
+          ]
+E:\Application\Visual_Studio_2022\vs\VC\Tools\MSVC\14.37.32822\include\xutility(5056,24): warning C4244: “参数”: 从“const _Ty”转换到“const std::complex<float>::_Ty”，可能丢失数据
+          with
+          [
+              _Ty=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3270,8): message : 查看对正在编译的函数 模板 实例化“void std::fill<std::complex<float>*,double>(const _FwdIt,const _FwdIt,const _Ty &)”的引用
+          with
+          [
+              _FwdIt=std::complex<float> *,
+              _Ty=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\FFT.h(52,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(3365,25): message : 查看对正在编译的函数 模板 实例化“std::vector<std::complex<float>,std::allocator<std::complex<float>>> FFT::fft1d<float>(const std::vector<std::complex<float>,std::allocator<std::complex<float>>> &,const FFT::fft_dir &)”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Geometry.hpp(150,46): warning C4244: “return”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2185,27): message : 查看对正在编译的函数 模板 实例化“T LUV::TriangleArea<float>(const LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &) restrict(cpu, amp)”的引用
+          with
+          [
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(26,10): warning C4244: “参数”: 从“const S”转换到“const std::complex<float>::_Ty”，可能丢失数据
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(24,15): message : 在编译 类 模板 成员函数“void LUV::OP_COPY<T,S>::operator ()(T &,const S &)”时
+          with
+          [
+              T=std::complex<float>,
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Unroll.hpp(17,12): message : 请参阅 "LUV::UNROLL" 中对 "LUV::OP_COPY<T,S>::operator ()" 的第一个引用
+          with
+          [
+              T=std::complex<float>,
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Body.hpp(48,42): message : 查看对正在编译的 类 模板 实例化“LUV::OP_COPY<T,S>”的引用
+          with
+          [
+              T=std::complex<float>,
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(134,28): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,std::complex<float>>::LuVector<T>(const S &) restrict(cpu, amp)”的引用
+          with
+          [
+              T=double,
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(633,51): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,std::complex<float>> LUV::operator *<3,double,std::complex<float>>(const T &,const LUV::LuVector<3,std::complex<float>> &) restrict(cpu, amp)”的引用
+          with
+          [
+              T=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(250,7): message : 在编译 类 模板 成员函数“void SbrSolver<Float>::DielectricTr(const SbrSolver<Float>::InDiele &,const RayTubeDie<T> &,RayTubeDie<T> &,LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &,const Observation<T> &,const Param<T> &,const T &,const LUV::LuVector<3,T> &,const T &,const T &,const Excitation<T> &,T &,T &,T &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(171,15): message : 请参阅 "SbrSolver<Float>::TraceInDieleAndEs" 中对 "SbrSolver<Float>::DielectricTr" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2296,25): message : 请参阅 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 中对 "SbrSolver<Float>::TraceInDieleAndEs" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(122,37): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::ShootAndBounceRaysAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(64,11): warning C4244: “/=”: 从“const S”转换到“T”，可能丢失数据
+          with
+          [
+              S=double
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(62,15): message : 在编译 类 模板 成员函数“void LUV::OP_DIV<float,S>::operator ()(T &,const S &)”时
+          with
+          [
+              S=double,
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Unroll.hpp(17,12): message : 请参阅 "LUV::UNROLL" 中对 "LUV::OP_DIV<float,S>::operator ()" 的第一个引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(50,35): message : 查看对正在编译的 类 模板 实例化“LUV::OP_DIV<float,S>”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(143,17): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,float> &LUV::operator /=<3,float,S>(LUV::LuVector<3,float> &,const S &) restrict(cpu, amp)”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(351,77): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,float> LUV::operator /<3,float,double>(const LUV::LuVector<3,float> &,const S &) restrict(cpu, amp)”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\RayPool.hpp(326,7): message : 在编译 类 模板 成员函数“void RayPoolDie<T>::ReGenerateRaysAcc(const BoundBox<T> &,const LUV::LuVector<3,T> &,const LUV::LuVector<3,T> &)”时
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(677,28): message : 请参阅 "SbrSolver<Float>::PopulateRayPoolAccDie" 中对 "RayPoolDie<T>::ReGenerateRaysAcc" 的第一个引用
+          with
+          [
+              T=Float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(113,24): message : 请参阅 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 中对 "SbrSolver<Float>::PopulateRayPoolAccDie" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(99,47): message : 请参阅 "main" 中对 "SbrSolver<Float>::MonostaticRcsGpuAccDieMemoryLess" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(55,11): warning C4244: “*=”: 从“const S”转换到“T”，可能丢失数据
+          with
+          [
+              S=double
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(53,15): message : 在编译 类 模板 成员函数“void LUV::OP_MUL<float,S>::operator ()(T &,const S &) restrict(amp)”时
+          with
+          [
+              S=double,
+              T=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Unroll.hpp(17,12): message : 请参阅 "LUV::UNROLL" 中对 "LUV::OP_MUL<float,S>::operator ()" 的第一个引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(42,35): message : 查看对正在编译的 类 模板 实例化“LUV::OP_MUL<float,S>”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(127,17): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,float> &LUV::operator *=<3,float,S>(LUV::LuVector<3,float> &,const S &) restrict(cpu, amp)”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\SbrSolver.hpp(2197,62): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,float> LUV::operator *<3,float,double>(const LUV::LuVector<3,float> &,const S &) restrict(cpu, amp)”的引用
+          with
+          [
+              S=double
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(55,11): warning C4244: “*=”: 从“const S”转换到“T”，可能丢失数据
+          with
+          [
+              S=float
+          ]
+          and
+          [
+              T=U32
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Op.hpp(53,15): message : 在编译 类 模板 成员函数“void LUV::OP_MUL<U32,float>::operator ()(T &,const S &)”时
+          with
+          [
+              T=U32,
+              S=float
+          ]
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Unroll.hpp(45,12): message : 请参阅 "LUV::UNROLL" 中对 "LUV::OP_MUL<U32,float>::operator ()" 的第一个引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(76,35): message : 查看对正在编译的 类 模板 实例化“LUV::OP_MUL<U32,float>”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\LuVector\LuVector_Overload.hpp(177,17): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,U32> &LUV::operator *=<3,U32,float>(LUV::LuVector<3,U32> &,const LUV::LuVector<3,float> &) restrict(cpu, amp)”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(146,42): message : 查看对正在编译的函数 模板 实例化“LUV::LuVector<3,U32> LUV::operator *<3,U32,float>(const LUV::LuVector<3,U32> &,const LUV::LuVector<3,float> &) restrict(cpu, amp)”的引用
+E:\Projects\RaytrAMP-master\CPP\SOURCE\MortonManager.hpp(132,7): message : 在编译 类 模板 成员函数“void MortonManager<Float>::GenerateMortonArray(void)”时
+E:\Projects\RaytrAMP-master\CPP\SBRtoRCS\SBRtoRCS.cpp(41,38): message : 请参阅 "main" 中对 "MortonManager<Float>::GenerateMortonArray" 的第一个引用
+  SBRtoRCS.vcxproj -> E:\Projects\RaytrAMP-master\CPP\x64\Debug\SBRtoRCS.exe

@@ -1,0 +1,3 @@
+﻿  bintoANSCII.cpp
+E:\Projects\RaytrAMP-master\CPP\bintoANSCII\bintoANSCII.cpp(44,9): warning C4101: “normal”: 未引用的局部变量
+  bintoANSCII.vcxproj -> E:\Projects\RaytrAMP-master\CPP\x64\Debug\bintoANSCII.exe
